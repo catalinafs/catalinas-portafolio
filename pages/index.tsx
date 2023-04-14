@@ -18,6 +18,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            Catalina👍
             By{' '}
             <Image
               src="/vercel.svg"
