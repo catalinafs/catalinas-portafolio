@@ -38,13 +38,6 @@ const Hero = () => {
                 >
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maiores odio neque, ducimus quia temporibus voluptate officia excepturi, quos repellat, praesentium iste totam itaque sint! Nesciunt aliquam distinctio delectus consequatur.
                 </p>
-                <div
-                    className='logo-linkedin'
-                >
-                    <a href='https://wa.link/a5pmx8' target='_blank'>
-                        <img src='/assets/icons/Linkedin-Logo.svg' alt='imagen_linkedin' />
-                    </a>
-                </div>
             </div>
         </div>
     );
