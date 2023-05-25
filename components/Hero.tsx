@@ -1,43 +1,35 @@
+import Image from 'next/image';
 import React from 'react';
 
+//#1d794e  #228b5a  #24c57a  #27d483
 const Hero = () => {
     return (
-        <div className='flex justify-center items-center flex-col'>
-
-            <div className='flex justify-center items-center flex-col'>
-
-                <div
-                    className='grid justify-center items-centerx'
-                >
-                    <img
-                        src='/assets/images/img-portfolio.jpg'
-                        alt='portfolio-image'
-                        className='w-[270px] h-[270px] my-[60px] rounded-[50%]'
-                    />
-                    <div
-                        className='w-[150px] h-[57px] relative top-[-100px] left-[10px] flex justify-center items-center
-                        rounded bg-[#484545]'
-                    >
-                        <h1
-                            className='text-[43px] text-[#E45640]'
-                        >Hello!</h1>
-                    </div>
-                </div>
-
+        <div
+            className='flex flex-col justify-center items-center gap-8 mt-[100px] mb-[120px] lg:flex-row'
+        >
+            <div
+                className='bg-whiteText w-[310px] h-[310px] flex justify-center items-center 
+                rounded-RadiusRounded'
+            >
+                <Image
+                    className='rounded-RadiusRounded'
+                    src='/assets/images/catalina-image.jpg'
+                    alt='image-portafolio'
+                    width={300}
+                    height={300}
+                />
             </div>
 
-            <div
-                className='m-[4px] p-[20px] gap-[25px] flex justify-center items-center flex-col'
-            >
-                <h2
-                    className='text-[33px] font-thin text-[#BFBFBF]'
-                >My name is Catalina Forero</h2>
-
-                <p
-                    className='my-0 mx-auto w-[53%] text-[17px] inline-block text-[#989898]'
-                >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maiores odio neque, ducimus quia temporibus voluptate officia excepturi, quos repellat, praesentium iste totam itaque sint! Nesciunt aliquam distinctio delectus consequatur.
-                </p>
+            <div className='text-whiteText max-w-[700px]'>
+                <div className='text-3xl font-bold'>
+                    <h1>Hello, my name is Catalina Forero</h1>
+                    {/* <h1> Hello! I am <span className='text-[#24c57a]'>Catalina Forero</span></h1> */}
+                    <h2>I am Frontend Developer</h2>
+                    {/* <h2 className='text-gray-200'>I am Frontend Developer</h2> */}
+                </div>
+                <div className='text-base break-words' >
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo expedita molestias autem beatae fuga distinctio ea quos itaque dolores explicabo quidem voluptatem assumenda vitae, perspiciatis doloremque adipisci similique mollitia?
+                </div>
             </div>
         </div>
     );

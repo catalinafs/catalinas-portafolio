@@ -1,12 +1,19 @@
-import Footer from '@/components/cosas_x/Footer';
+import AboutMe from '@/components/AboutMe';
+import ContactMe from '@/components/ContactMe';
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
-import NavBar from '@/components/NavBar';
+import Projects from '@/components/Projects';
+import Technologies from '@/components/Technologies';
+// import Layout from '@/layout/LayoutSections';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-bgDARK">
-      <NavBar />
+    <main>
       <Hero />
+      <AboutMe /> 
+      <Technologies />
+      <Projects />
+      <ContactMe />
       <Footer />
     </main>
   );

@@ -40,7 +40,8 @@ module.exports = {
         700: '#2E2E2E',
         800: '#232323'
       },
-      'whiteText': '#f5f9e9',
+      'whiteText': '#EFEFEF',
+      // 'whiteText': '#f5f9e9',
       'bgWHITE': '#EFEFEF',
       'bgDARK': '#232323'
     },
