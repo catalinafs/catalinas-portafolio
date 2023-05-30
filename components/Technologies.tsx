@@ -12,16 +12,15 @@ import React from 'react';
 import ReactJS from '@/public/assets/icons/ReactJS';
 import TailWindCSS from '@/public/assets/icons/TailWindCSS';
 import TypeScript from '@/public/assets/icons/TypeScript';
+import Image from 'next/image';
 
-//#1d794e  #228b5a  #24c57a  #27d483
 const Technologies = () => {
     return (
         <div className='text-whiteText flex flex-col items-center mb-16 mx-4'>
-            <h2 className='text-3xl font-medium mb-12'>
+            <h2 className='text-4xl font-medium mb-12'>
                 My Skills <span className='text-[#27d483]'>&</span> Tools
             </h2>
             <div className='flex justify-center items-center flex-wrap max-w-[850px] gap-5'>
-                {/* <div className='hover:bg-gray-450 bg-gray-600'> */}
                 <a
                     href='#'
                     className='box-border w-[100px] h-[120px] hover:bg-gray-600 bg-gray-500 rounded-R12 
@@ -91,7 +90,7 @@ const Technologies = () => {
                     className='box-border w-[100px] h-[120px] hover:bg-gray-600 bg-gray-500 rounded-R12
                     flex flex-col justify-between items-center py-[15px]'
                 >
-                    <NextJS width={70} height={25} />
+                    <Image src='/assets/images/nextjs.png' alt='Logo_Next' width={60} height={60} />
                     <h3>Next JS</h3>
                 </a>
                 <a

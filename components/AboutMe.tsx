@@ -2,14 +2,12 @@ import Image from 'next/image';
 import React from 'react';
 
 const AboutMe = () => {
-    //#1d794e  #228b5a  #24c57a  #27d483
-    //#3d9ba5fa
     return (
         <div
             className='text-whiteText w-full flex flex-col items-center mb-14 bg-[#2e2e2e] py-[30px]
             box-content pb-[65px]'
         >
-            <h2 className='text-3xl font-medium mb-8'>
+            <h2 className='text-4xl font-medium mb-8'>
                 About <span className='text-[#27d483]'>Me</span>
             </h2>
 
@@ -22,13 +20,13 @@ const AboutMe = () => {
                 </div>
                 <div
                     className='flex items-center justify-center bg-gray-300 rounded-R12 box-border'
-                ><Image src='/assets/images/hero.png' alt='aboutMe-image' width={550} height={150} /></div>
+                ><Image src='/assets/images/hero.png' alt='aboutMe-image' width={500} height={150} /></div>
             </div>
 
             <div className='flex flex-wrap gap-14 items-center px-[30px] justify-evenly' >
                 <div
                     className='flex items-center justify-center bg-gray-300 rounded-R12 box-border'
-                ><Image src='/assets/images/hero.png' alt='aboutMe-image' width={550} height={150} /></div>
+                ><Image src='/assets/images/hero.png' alt='aboutMe-image' width={500} height={150} /></div>
                 <div className='w-3/5' >
                     <p>
                         I love to think outside the box and come up with new and innovative ideas that help my clients stand out from the competition. I'm committed to delivering excellent service and assistance, whether I'm working on a project or sharing my knowledge. Thank you for visiting my portfolio, I look forward to the opportunity of working with you.

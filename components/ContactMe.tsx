@@ -8,6 +8,10 @@ const ContactMe = () => {
             <h2 className='text-3xl font-medium mb-12'>
                 <span className='text-[#27d483]'>Contact</span> Me
             </h2>
+
+            <p>
+                Thank you for visiting my portfolio, I look forward to the opportunity of working with you.
+            </p>
         </div>
     );
 }

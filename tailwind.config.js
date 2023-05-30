@@ -3,6 +3,8 @@
 // #161616
 // #AFAFAF
 
+//#1d794e  #228b5a  #24c57a  #27d483
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -40,8 +42,7 @@ module.exports = {
         700: '#2E2E2E',
         800: '#232323'
       },
-      'whiteText': '#EFEFEF',
-      // 'whiteText': '#f5f9e9',
+      'whiteText': '#d9d9d9',
       'bgWHITE': '#EFEFEF',
       'bgDARK': '#232323'
     },
